@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Work Website</title>
+<meta charset="UTF-8"  name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<body>
+    <header class="w3-container">
+        <h1>Header</h1>
+    </header>
+    <div class="w3-row">
+        <div class="w3-third w3-container w3-black">
+            <img src="ordered-steps.png" class="w3-round w3-image" alt="logo">
+        </div>
+        <div class="w3-container w3-rest w3-amber">
+            <a href="#apply" class="w3-bar-item w3-button w3-mobile w3-right w3-hover-none w3-bottombar w3-hover-border-white">Apply</a>
+            <a href="#" class="w3-bar-item w3-button w3-mobile w3-right w3-hover-none w3-bottombar w3-hover-border-white">Contact</a>
+            <a href="#" class="w3-bar-item w3-button w3-mobile w3-right w3-hover-none w3-bottombar w3-hover-border-white">About</a>
+            <a href="#" class="w3-bar-item w3-button w3-mobile w3-right w3-hover-none w3-bottombar w3-hover-border-white">Home</a>
+    </div>
+    </div>
+
+    <div class="w3-container w3-mobile" id="#About">
+        <h1>TOTOTO</h1>
+
+    </div>
+    <div class="w3-row">
+        <div class="w3-col w3-container w3-mobile" style="width:50%;"  id="#Contact">
+            <h1>Ordered Steps Home For Girls</h1>
+            <i class="fa fa-home"></i>  <h1>896 Bryant Still Road</h1>
+            <h1>Brooklet, GA 30415</h1>
+        </div>
+        <div class="w3-col w3-container w3-mobile" style="width:50%;">
+            <h1>(912)823-2016</h1>
+        </div>
+    </div>
+    <!--------------Beginning of Application----------------------->
+    <form class="w3-container w3-card-4 w3-margin" id="apply" action="submit.php" method="post">
+        <h2 class="w3-center">Apply Here</h2>
+        <h2 class="w3-left">Canidate Information</h2>
+        <div class="w3-row">
+         <div class="w3-col w3-container w3-mobile" style="width:50%">
+            <p><label for="firstname">First Name</label>
+            <input class="w3-input w3-border w3-round" id="firstname" name="firstname" type="text" required></p>
+            </div>
+            <div class="w3-col w3-container w3-mobile" style="width:50%">
+                <p><label>Last Name</label>
+                <input class="w3-input w3-border w3-round" name="lastname" type="text"></p>
+             </div>
+            </div>
+            <div class="w3-row">
+                <div class="w3-col w3-container w3-mobile w3-third">
+                <p><label>Date Of Birth</label>
+                    <input class="w3-input w3-border w3-round" name="dob" type="date"></p>
+                </div>
+                <div class="w3-col w3-container w3-mobile w3-third">
+                    <p><lable>Phone Number</lable>
+                    <input class="w3-input w3-border w3-round" name="phonenumber" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="999-999-9999"></p>
+                </div>
+                <div class="w3-col w3-container w3-mobile w3-third">
+                    <p><label>Email Address</label>
+                    <input class="w3-input w3-border w3-round" name="email" type="email"></p>
+                </div>
+            </div>
+            <div class="w3-row">
+                <div class="w3-col w3-container w3-mobile" style="width:40%;">
+                    <p><label>Address</label>
+                        <input class="w3-input w3-border w3-round" name="address" type="text"></p>
+                </div>
+                <div class="w3-col w3-container w3-mobile" style="width:20%;">
+                    <p><label>City</label>
+                    <input class="w3-input w3-border w3-round" name="city" type="text"></p>
+                </div>
+                <div class="w3-col w3-container w3-mobile" style="width:20%;">
+                    <p><label>State</label>
+                        <select class="w3-select w3-border" name="state">
+                            <option value="" disabled selected>Choose a State</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District Of Columbia</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                          </select>
+                </div>
+                <div class="w3-col w3-container w3-mobile" style="width:20%;">
+                    <p><label>Zipcode</label>
+                    <input class="w3-input w3-border w3-round" name="city" type="text"></p>
+                </div>
+            </div>
+            <div class="w3-row">
+                <div class="w3-col w3-container w3-mobile w3-third">
+                    <p><label>Social Security Number</label>
+                        <input class="w3-input w3-border w3-round" name="address" type="text" placeholder="999-99-9999"></p>
+                </div>
+                <div class="w3-col w3-container w3-mobile w3-third">
+                   <p><label>Sex</label>
+                    <select class="w3-select w3-border" name="sex">
+                        <option value="" disabled selected></option>
+                        <option value="1">Male</option>
+                        <option value="2">Female</option>
+                      </select></p>
+            </div>
+                <div class="w3-col w3-container w3-mobile w3-third">
+                    <p><label>Age</label>
+                    <input class="w3-input w3-border w3-round" name="age" type="number"></p>
+                </div>
+            </div> 
+            <!----------------Emergency Contact---------------------> 
+            <h2 class="w3-left">Emergency Contact Information</h2>
+            <div class="w3-row">
+                <div class="w3-col w3-container w3-mobile" style="width:50%">
+                   <p><label>First Name</label>
+                   <input class="w3-input w3-border w3-round" name="firstname" type="text"></p>
+                </div>
+                <div class="w3-col w3-container w3-mobile" style="width:50%">
+                   <p><label>Last Name</label>
+                   <input class="w3-input w3-border w3-round" name="lastname" type="text"></p>
+                </div>
+               </div>
+            <div class="w3-row">
+                <div class="w3-col w3-container w3-mobile" style="width:40%;">
+                    <p><label>Address</label>
+                        <input class="w3-input w3-border w3-round" name="address" type="text"></p>
+                </div>
+                <div class="w3-col w3-container w3-mobile" style="width:20%;">
+                    <p><label>City</label>
+                    <input class="w3-input w3-border w3-round" name="city" type="text"></p>
+                </div>
+                <div class="w3-col w3-container w3-mobile" style="width:20%;">
+                    <p><label>State</label>
+                        <select class="w3-select w3-border" name="state">
+                            <option value="" disabled selected>Choose a State</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District Of Columbia</option>
+                            <option value="FL">Florida</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                          </select>
+                </div>
+                <div class="w3-col w3-container w3-mobile" style="width:20%;">
+                    <p><label>Zipcode</label>
+                    <input class="w3-input w3-border w3-round" name="city" type="text"></p>
+                </div>
+            </div>
+            <div class="w3-col w3-container w3-mobile">
+                <p><lable>Phone Number</lable>
+                <input class="w3-input w3-border w3-round" name="phonenumber" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="999-999-9999"></p>
+            </div>
+            <!-------------------------------Availiability------------------------------------>
+            <h2 class="w3-left">Canidate Availability</h2>
+                <div class="w3-row">
+                    <div class="w3-col w3-container w3-half w3-mobile">
+                        <p><label>What Position Are You Applying For?</label>
+                        <input class="w3-input w3-border w3-round" name="appliedposition" type="text"></p>
+                    </div>
+                    <div class="w3-col w3-container w3-half w3-mobile">
+                        <p><label>Desired Salary</label>
+                        <input class="w3-input w3-border w3-round" name="salary" type="text" placeholder="Be Specific"></p>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-col w3-container w3-mobile">
+                        <p><label>Days Available To Work</label></p>
+                        <input class="w3-check" type="checkbox" name="workdayavailability[]"><label>Open Availability</label>
+                        <input class="w3-check" type="checkbox" name="workdayavailability[]"><label>Monday</label>
+                        <input class="w3-check" type="checkbox" name="workdayavailability[]"><label>Tuesday</label>
+                        <input class="w3-check" type="checkbox" name="workdayavailability[]"><label>Wednesday</label>
+                        <input class="w3-check" type="checkbox" name="workdayavailability[]"><label>Thursday</label>
+                        <input class="w3-check" type="checkbox" name="workdayavailability[]"><label>Friday</label>
+                        <input class="w3-check" type="checkbox" name="workdayavailability[]"><label>Saturday</label>
+                        <input class="w3-check" type="checkbox" name="workdayavailability[]"><label>Sunday</label>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-container w3-mobile w3-quarter">
+                        <p><br><label>Desired Hours/Week</label>
+                        <input class="w3-input w3-border w3-round" name="hours" type="number" min="0" max="40" placeholder="Up to 40 hours/week"> </p>
+                    </div>
+                    <div class="w3-container w3-mobile w3-quarter">
+                        <p><br><label>Employment Desired</label></p>
+                        <p><input class="w3-radio w3-border w3-round" type="radio" name="employeementdesired" value="fulltime"><label>Full-Time</label></p>
+                        <p> <input class="w3-radio w3-border w3-round" type="radio" name="employeementdesired" value="parttime"><label>Part-Time</label></p>
+                        <p></p><input class="w3-radio w3-border w3-round" type="radio" name="employeementdesired" value="fulltimeparttime"><label>Full or Part-Time</label></p>
+                    </div>
+                    <div class="w3-container w3-mobile w3-quarter">
+                        <p><br><label>Can You Work Nights?</label>
+                            <select class="w3-select w3-border" name="nights">
+                                <option value="" disabled selected></option>
+                                <option value="Yes">Yes</option>
+                                <option value="No">No</option></select></p>
+                    </div>
+                    <div class="w3-container w3-mobile w3-quarter">
+                        <p><br><label>If Hired, When Can You Start?</label>
+                        <input class="w3-input w3-border w3-round" type="date" name="startdate"></p>
+                    </div>
+                </div>
+                <!-------------------------------Education History------------------------------>
+                <h2 class="w3-left">Education History</h2>
+                <div class="w3-row">
+                    <div class="w3-container w3-mobile">
+                        <p>Did you graduate from High School or recieve a GED?</p>
+                        <p><input class="w3-radio" type="radio" name="graduate" value="yes"><label>Yes</label></p>
+                        <p><input class="w3-radio" type="radio" name="graduate" value="no"><label>No</label></p>
+                    </div>
+                    <div class="w3-container w3-mobile w3-half">
+                        <p><label>High School Attended</label><input class="w3-input w3-border w3-round" type="text"></p> 
+                    </div>
+                    <div class="w3-container w3-mobile w3-half">
+                        <p><label>High School Address</label>
+                        <input class="w3-input w3-border w3-round" type="text"></p>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-container w3-mobile w3-quarter">
+                        <p><label>Did You Attend College</label>
+                        <p><input class="w3-radio" type="radio" name="college" value="yes"><label>Yes</label></p>
+                        <p><input class="w3-radio" type="radio" name="college" value="no"><label>No</label></p>
+                        <p><input class="w3-radio" type="radio" name="college" value="currently"><label>Currently Attending</label></p></p>
+                    </div>
+                    <div class="w3-container w3-mobile w3-quarter">
+                        <p><label>College Attended</label>
+                            <input class="w3-input w3-border w3-round" type="text"></p>
+                    </div>
+                    <div class="w3-container w3-mobile w3-quarter">
+                        <p><label>Number of Years Completed</label>
+                            <input class="w3-input w3-border w3-round" type="text"></p>
+                    </div>
+                    <div class="w3-container w3-mobile w3-quarter">
+                        <p><label>Major & Degree</label>
+                            <input class="w3-input w3-border w3-round" type="text"></p>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-container w3-mobile">
+                        <p><label>If Any More Secondary Schooling (Universities, Trade School, Professional School), List Here</label></p>
+                        <textarea id="w3review" rows="4" cols="50"></textarea>
+                    </div>
+                </div>
+                <h2 class="w3-left">Previous History</h2>
+                <div class="w3-row">
+                    <div class="w3-container w3-mobile">
+                        <p><label>Have You Ever Been Convicted Of A Crime</label>
+                        <p><input class="w3-radio" type="radio" name="crime" value="yes"><label>Yes</label></p>
+                        <p><input class="w3-radio" type="radio" name="crime" value="no"><label>No</label></p>
+                    </p>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-container w3-mobile">
+                        <p><label>If yes, explain number of conviction(s), nature of offense(s) leading to conviction(s), how recently such offense(s) was/were committed, sentence(s) imposed, and type(s) of rehabilitation</label></p>
+                        <textarea id="w3review" rows="4" cols="150"></textarea>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-container w3-mobile">
+                        <p><label>Do You Have A Driver's License?</label>
+                        <p><input class="w3-radio" type="radio" name="license" value="yes"><label>Yes</label></p>
+                        <p><input class="w3-radio" type="radio" name="license" value="no"><label>No</label></p></p>
+                    </div> 
+                    <div class="w3-container w3-mobile">
+                        <p><label>What is your means of transportation to work?</label>
+                        <input class="w3-input w3-border w3-round"></p>
+                    </div>
+                    <div class="w3-container w3-mobile ">
+                        <p>Drivers License:</p>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-container w3-col w3-mobile " style="width: 20%;">
+                        <p><label>Number</label>
+                        <input class="w3-input w3-border w3-round" type="text"></p>
+                    </div>
+                    <div class="w3-container w3-col w3-mobile" style="width:20%">
+                        <p><label>State of Issue</label>
+                            <select class="w3-select w3-border">
+                                <option value="AL">AL</option>
+                                <option value="AK">AK</option>
+                                <option value="AR">AR</option>
+                                <option value="AZ">AZ</option>
+                                <option value="CA">CA</option>
+                                <option value="CO">CO</option>
+                                <option value="CT">CT</option>
+                                <option value="DC">DC</option>
+                                <option value="DE">DE</option>
+                                <option value="FL">FL</option>
+                                <option value="GA">GA</option>
+                                <option value="HI">HI</option>
+                                <option value="IA">IA</option>
+                                <option value="ID">ID</option>
+                                <option value="IL">IL</option>
+                                <option value="IN">IN</option>
+                                <option value="KS">KS</option>
+                                <option value="KY">KY</option>
+                                <option value="LA">LA</option>
+                                <option value="MA">MA</option>
+                                <option value="MD">MD</option>
+                                <option value="ME">ME</option>
+                                <option value="MI">MI</option>
+                                <option value="MN">MN</option>
+                                <option value="MO">MO</option>
+                                <option value="MS">MS</option>
+                                <option value="MT">MT</option>
+                                <option value="NC">NC</option>
+                                <option value="NE">NE</option>
+                                <option value="NH">NH</option>
+                                <option value="NJ">NJ</option>
+                                <option value="NM">NM</option>
+                                <option value="NV">NV</option>
+                                <option value="NY">NY</option>
+                                <option value="ND">ND</option>
+                                <option value="OH">OH</option>
+                                <option value="OK">OK</option>
+                                <option value="OR">OR</option>
+                                <option value="PA">PA</option>
+                                <option value="RI">RI</option>
+                                <option value="SC">SC</option>
+                                <option value="SD">SD</option>
+                                <option value="TN">TN</option>
+                                <option value="TX">TX</option>
+                                <option value="UT">UT</option>
+                                <option value="VT">VT</option>
+                                <option value="VA">VA</option>
+                                <option value="WA">WA</option>
+                                <option value="WI">WI</option>
+                                <option value="WV">WV</option>
+                                <option value="WY">WY</option>
+                            </select></p>
+                    </div>
+                    <div class="w3-container w3-col w3-mobile " style="width: 20%;">
+                        <p><label>Expiration Date</label>
+                        <input class="w3-input w3-border w3-round" type="date"></p>
+                    </div>
+                    <br>
+                    <div class="w3-container w3-col w3-mobile" style="width: 13.33%;">
+                        <input class="w3-check" type="checkbox" name="exp"><label>Commercial</label>
+                    </div>
+                    <div class="w3-container w3-col w3-mobile" style="width: 13.33%;">
+                        <input class="w3-check" type="checkbox" name="exp"><label>Operator</label>
+                    </div>
+                    <div class="w3-container w3-col w3-mobile" style="width: 13.33%;">
+                        <input class="w3-check" type="checkbox" name="exp"><label>Chauffeur</label>
+                    </div>
+                </div>
+                <div class="w3-row">
+                    <div class="w3-container w3-mobile w3-half">
+                        <p><label>How many accidents have you had in the past 3 years?</label>
+                        <input class="w3-input w3-round w3-border" type="number"></p>
+                    </div>
+                    <div class="w3-container w3-mobile w3-half">
+                        <p><label>How many moving violations have you had in the past 3 years?</label>
+                            <input class="w3-input w3-round w3-border" type="number"></p>
+                    </div>
+                </div>
+                <h2 class="w3-left">References</h2>
+               <div class="w3-row"><p>List Two Professional, Educational, or Personal references other than relatives or previous employers</p></div>
+               <div class="w3-row">
+                <div class="w3-container w3-mobile w3-half">
+                    <p><label>Name</label>
+                        <input class="w3-input w3-round w3-border" type="text"></p><br>
+                    <p><label>Position</label>
+                        <input class="w3-input w3-round w3-border" type="text"></p><br>
+                    <p><label>Company</label>
+                        <input class="w3-input w3-round w3-border" type="text"></p><br>
+                    <p><label>Address</label>
+                         <input class="w3-input w3-round w3-border" type="text"></p><br>
+                    <p><label>Telephone</label>
+                        <input class="w3-input w3-round w3-border" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="999-999-9999"></p>
+                </div>
+                <div class="w3-container w3-mobile w3-half">
+                    <p><label>Name</label>
+                        <input class="w3-input w3-round w3-border" type="text"></p><br>
+                    <p><label>Position</label>
+                        <input class="w3-input w3-round w3-border" type="text"></p><br>
+                    <p><label>Company</label>
+                        <input class="w3-input w3-round w3-border" type="text"></p><br>
+                    <p><label>Address</label>
+                         <input class="w3-input w3-round w3-border" type="text"></p><br>
+                    <p><label>Telephone</label>
+                        <input class="w3-input w3-round w3-border" type="tel" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="999-999-9999"></p>
+                </div>
+               </div>
+               <div class="w3-row w3-center">
+                    <p>An application form sometimes makes it difficult for an individual to adequately summarize a complete background. Use the space below to summarize any additional information necessary to describe your full qualifications for the specific position for which you are applying.</p>
+                    <textarea rows="20" cols="150" style="resize: none;"></textarea>
+                </div>
+                <h2 class="w3-left">Military</h2>
+                <div class="w3-row">
+                    <div class="w3-container w3-mobile">
+                    <p><label>Have you ever been in the armed forces?</label>
+                    <input class="w3-radio" type="radio" name="armedforces" value="yes"><label>Yes</label>
+                    <input class="w3-radio" type="radio" name="armedforces" value="no"><label>No</label></p>
+                </div>
+                    <div class="w3-container w3-mobile">
+                    <p><label>Are you now a member of the national guard?</label>
+                    <input class="w3-radio" type="radio" name="armedforces" value="yes"><label>Yes</label>
+                    <input class="w3-radio" type="radio" name="armedforces" value="no"><label>No</label></p>
+                    </div>
+                    <div class="w3-container w3-mobile w3-third">
+                        <p><label>Specialty</label><input class="w3-input w3-border w3-round" type="text"></p>
+                    </div>
+                    <div class="w3-container w3-mobile w3-third">
+                        <p><label>Date Entered</label><input class="w3-input w3-border w3-round" type="date"></p>
+                    </div>
+                    <div class="w3-container w3-mobile w3-third">
+                        <p><label>Discharge Date</label><input class="w3-input w3-border w3-round" type="date"></p>
+                    </div>
+                </div>
+                <!-----------------------Work Experience--------------------->
+                <div class="w3-row">
+                 <h2 class="w3-left">Work Experience</h2>
+                 </div>
+                 <div class="w3-row">
+                <h3>List work experience in the last 10 years, starting with the most recent job</h3>
+                 </div>
+                <div class="w3-row">
+                    <div class="w3-col w3-container w3-half w3-mobile">
+                        <p><label>Company Name</label> <input class="w3-input" type="text">
+                        <label>Address</label><input class="w3-input" type="text">
+                            <div class="w3-third">
+                            <label>City</label><input class="w3-input" type="text">
+                            </div>
+                            <div class="w3-third">
+                                <label>State</label> <select class="w3-select">
+                                    <option value="AL">AL</option>
+                                    <option value="AK">AK</option>
+                                    <option value="AR">AR</option>
+                                    <option value="AZ">AZ</option>
+                                    <option value="CA">CA</option>
+                                    <option value="CO">CO</option>
+                                    <option value="CT">CT</option>
+                                    <option value="DC">DC</option>
+                                    <option value="DE">DE</option>
+                                    <option value="FL">FL</option>
+                                    <option value="GA">GA</option>
+                                    <option value="HI">HI</option>
+                                    <option value="IA">IA</option>
+                                    <option value="ID">ID</option>
+                                    <option value="IL">IL</option>
+                                    <option value="IN">IN</option>
+                                    <option value="KS">KS</option>
+                                    <option value="KY">KY</option>
+                                    <option value="LA">LA</option>
+                                    <option value="MA">MA</option>
+                                    <option value="MD">MD</option>
+                                    <option value="ME">ME</option>
+                                    <option value="MI">MI</option>
+                                    <option value="MN">MN</option>
+                                    <option value="MO">MO</option>
+                                    <option value="MS">MS</option>
+                                    <option value="MT">MT</option>
+                                    <option value="NC">NC</option>
+                                    <option value="NE">NE</option>
+                                    <option value="NH">NH</option>
+                                    <option value="NJ">NJ</option>
+                                    <option value="NM">NM</option>
+                                    <option value="NV">NV</option>
+                                    <option value="NY">NY</option>
+                                    <option value="ND">ND</option>
+                                    <option value="OH">OH</option>
+                                    <option value="OK">OK</option>
+                                    <option value="OR">OR</option>
+                                    <option value="PA">PA</option>
+                                    <option value="RI">RI</option>
+                                    <option value="SC">SC</option>
+                                    <option value="SD">SD</option>
+                                    <option value="TN">TN</option>
+                                    <option value="TX">TX</option>
+                                    <option value="UT">UT</option>
+                                    <option value="VT">VT</option>
+                                    <option value="VA">VA</option>
+                                    <option value="WA">WA</option>
+                                    <option value="WI">WI</option>
+                                    <option value="WV">WV</option>
+                                    <option value="WY">WY</option>
+                                </select>
+                            </div>
+                            <div class="w3-third">
+                                <label>Zip Code</label><input class="w3-input" type="text">
+                            </div>
+                        <label>Phone Number</label><input class="w3-input" type="tel"pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="999-999-9999">
+                        <label>Supervisor Name</label><input class="w3-input" type="text">
+                            <div class="w3-half">
+                                <label>Employement Dates</label><br>
+                                <label>From</label><input class="w3-input" type="date">
+                            </div>
+                            <div class="w3-half">
+                               <br> <label>To</label><input class="w3-input" type="date">
+                            </div>
+                        <label>Job Title Held</label><input class="w3-input" type="text">
+                        <label>Reason For Leaving</label><input class="w3-input" type="text">
+                        <label>Jobs held, duties performed, skills used or learned, advancements or promotions while working with this company</label><br><textarea rows="4" cols="50"></textarea>
+                        </p>  
+                    </div>
+                       
+                        <!--#2-->
+                        <div class="w3-col w3-container w3-half w3-mobile">
+                            <p><label>Company Name</label> <input class="w3-input" type="text">
+                            <label>Address</label><input class="w3-input" type="text">
+                                <div class="w3-third">
+                                <label>City</label><input class="w3-input" type="text">
+                                </div>
+                                <div class="w3-third">
+                                    <label>State</label> <select class="w3-select">
+                                        <option value="AL">AL</option>
+                                        <option value="AK">AK</option>
+                                        <option value="AR">AR</option>
+                                        <option value="AZ">AZ</option>
+                                        <option value="CA">CA</option>
+                                        <option value="CO">CO</option>
+                                        <option value="CT">CT</option>
+                                        <option value="DC">DC</option>
+                                        <option value="DE">DE</option>
+                                        <option value="FL">FL</option>
+                                        <option value="GA">GA</option>
+                                        <option value="HI">HI</option>
+                                        <option value="IA">IA</option>
+                                        <option value="ID">ID</option>
+                                        <option value="IL">IL</option>
+                                        <option value="IN">IN</option>
+                                        <option value="KS">KS</option>
+                                        <option value="KY">KY</option>
+                                        <option value="LA">LA</option>
+                                        <option value="MA">MA</option>
+                                        <option value="MD">MD</option>
+                                        <option value="ME">ME</option>
+                                        <option value="MI">MI</option>
+                                        <option value="MN">MN</option>
+                                        <option value="MO">MO</option>
+                                        <option value="MS">MS</option>
+                                        <option value="MT">MT</option>
+                                        <option value="NC">NC</option>
+                                        <option value="NE">NE</option>
+                                        <option value="NH">NH</option>
+                                        <option value="NJ">NJ</option>
+                                        <option value="NM">NM</option>
+                                        <option value="NV">NV</option>
+                                        <option value="NY">NY</option>
+                                        <option value="ND">ND</option>
+                                        <option value="OH">OH</option>
+                                        <option value="OK">OK</option>
+                                        <option value="OR">OR</option>
+                                        <option value="PA">PA</option>
+                                        <option value="RI">RI</option>
+                                        <option value="SC">SC</option>
+                                        <option value="SD">SD</option>
+                                        <option value="TN">TN</option>
+                                        <option value="TX">TX</option>
+                                        <option value="UT">UT</option>
+                                        <option value="VT">VT</option>
+                                        <option value="VA">VA</option>
+                                        <option value="WA">WA</option>
+                                        <option value="WI">WI</option>
+                                        <option value="WV">WV</option>
+                                        <option value="WY">WY</option>
+                                    </select>
+                                </div>
+                                <div class="w3-third">
+                                    <label>Zip Code</label><input class="w3-input" type="text">
+                                </div>
+                            <label>Phone Number</label><input class="w3-input" type="tel"pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="999-999-9999">
+                            <label>Supervisor Name</label><input class="w3-input" type="text">
+                                <div class="w3-half">
+                                    <label>Employement Dates</label><br>
+                                    <label>From</label><input class="w3-input" type="date">
+                                </div>
+                                <div class="w3-half">
+                                   <br> <label>To</label><input class="w3-input" type="date">
+                                </div>
+                            <label>Job Title Held</label><input class="w3-input" type="text">
+                            <label>Reason For Leaving</label><input class="w3-input" type="text">
+                            <label>Jobs held, duties performed, skills used or learned, advancements or promotions while working with this company</label><br><textarea rows="4" cols="50"></textarea>
+                        </p>
+                        </div>
+                    </div>
+                    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                    <div class="w3-row">
+                        <div class="w3-col w3-container w3-half w3-mobile">
+                            <p><label>Company Name</label> <input class="w3-input" type="text">
+                            <label>Address</label><input class="w3-input" type="text">
+                                <div class="w3-third">
+                                <label>City</label><input class="w3-input" type="text">
+                                </div>
+                                <div class="w3-third">
+                                    <label>State</label> <select class="w3-select">
+                                        <option value="AL">AL</option>
+                                        <option value="AK">AK</option>
+                                        <option value="AR">AR</option>
+                                        <option value="AZ">AZ</option>
+                                        <option value="CA">CA</option>
+                                        <option value="CO">CO</option>
+                                        <option value="CT">CT</option>
+                                        <option value="DC">DC</option>
+                                        <option value="DE">DE</option>
+                                        <option value="FL">FL</option>
+                                        <option value="GA">GA</option>
+                                        <option value="HI">HI</option>
+                                        <option value="IA">IA</option>
+                                        <option value="ID">ID</option>
+                                        <option value="IL">IL</option>
+                                        <option value="IN">IN</option>
+                                        <option value="KS">KS</option>
+                                        <option value="KY">KY</option>
+                                        <option value="LA">LA</option>
+                                        <option value="MA">MA</option>
+                                        <option value="MD">MD</option>
+                                        <option value="ME">ME</option>
+                                        <option value="MI">MI</option>
+                                        <option value="MN">MN</option>
+                                        <option value="MO">MO</option>
+                                        <option value="MS">MS</option>
+                                        <option value="MT">MT</option>
+                                        <option value="NC">NC</option>
+                                        <option value="NE">NE</option>
+                                        <option value="NH">NH</option>
+                                        <option value="NJ">NJ</option>
+                                        <option value="NM">NM</option>
+                                        <option value="NV">NV</option>
+                                        <option value="NY">NY</option>
+                                        <option value="ND">ND</option>
+                                        <option value="OH">OH</option>
+                                        <option value="OK">OK</option>
+                                        <option value="OR">OR</option>
+                                        <option value="PA">PA</option>
+                                        <option value="RI">RI</option>
+                                        <option value="SC">SC</option>
+                                        <option value="SD">SD</option>
+                                        <option value="TN">TN</option>
+                                        <option value="TX">TX</option>
+                                        <option value="UT">UT</option>
+                                        <option value="VT">VT</option>
+                                        <option value="VA">VA</option>
+                                        <option value="WA">WA</option>
+                                        <option value="WI">WI</option>
+                                        <option value="WV">WV</option>
+                                        <option value="WY">WY</option>
+                                    </select>
+                                </div>
+                                <div class="w3-third">
+                                    <label>Zip Code</label><input class="w3-input" type="text">
+                                </div>
+                            <label>Phone Number</label><input class="w3-input" type="tel"pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="999-999-9999">
+                            <label>Supervisor Name</label><input class="w3-input" type="text">
+                                <div class="w3-half">
+                                    <label>Employement Dates</label><br>
+                                    <label>From</label><input class="w3-input" type="date">
+                                </div>
+                                <div class="w3-half">
+                                   <br> <label>To</label><input class="w3-input" type="date">
+                                </div>
+                            <label>Job Title Held</label><input class="w3-input" type="text">
+                            <label>Reason For Leaving</label><input class="w3-input" type="text">
+                            <label>Jobs held, duties performed, skills used or learned, advancements or promotions while working with this company</label><br><textarea rows="4" cols="50"></textarea>
+                            </p>  
+                        </div>
+                           
+                            <!--#2-->
+                            <div class="w3-col w3-container w3-half w3-mobile">
+                                <p><label>Company Name</label> <input class="w3-input" type="text">
+                                <label>Address</label><input class="w3-input" type="text">
+                                    <div class="w3-third">
+                                    <label>City</label><input class="w3-input" type="text">
+                                    </div>
+                                    <div class="w3-third">
+                                        <label>State</label> <select class="w3-select">
+                                            <option value="AL">AL</option>
+                                            <option value="AK">AK</option>
+                                            <option value="AR">AR</option>
+                                            <option value="AZ">AZ</option>
+                                            <option value="CA">CA</option>
+                                            <option value="CO">CO</option>
+                                            <option value="CT">CT</option>
+                                            <option value="DC">DC</option>
+                                            <option value="DE">DE</option>
+                                            <option value="FL">FL</option>
+                                            <option value="GA">GA</option>
+                                            <option value="HI">HI</option>
+                                            <option value="IA">IA</option>
+                                            <option value="ID">ID</option>
+                                            <option value="IL">IL</option>
+                                            <option value="IN">IN</option>
+                                            <option value="KS">KS</option>
+                                            <option value="KY">KY</option>
+                                            <option value="LA">LA</option>
+                                            <option value="MA">MA</option>
+                                            <option value="MD">MD</option>
+                                            <option value="ME">ME</option>
+                                            <option value="MI">MI</option>
+                                            <option value="MN">MN</option>
+                                            <option value="MO">MO</option>
+                                            <option value="MS">MS</option>
+                                            <option value="MT">MT</option>
+                                            <option value="NC">NC</option>
+                                            <option value="NE">NE</option>
+                                            <option value="NH">NH</option>
+                                            <option value="NJ">NJ</option>
+                                            <option value="NM">NM</option>
+                                            <option value="NV">NV</option>
+                                            <option value="NY">NY</option>
+                                            <option value="ND">ND</option>
+                                            <option value="OH">OH</option>
+                                            <option value="OK">OK</option>
+                                            <option value="OR">OR</option>
+                                            <option value="PA">PA</option>
+                                            <option value="RI">RI</option>
+                                            <option value="SC">SC</option>
+                                            <option value="SD">SD</option>
+                                            <option value="TN">TN</option>
+                                            <option value="TX">TX</option>
+                                            <option value="UT">UT</option>
+                                            <option value="VT">VT</option>
+                                            <option value="VA">VA</option>
+                                            <option value="WA">WA</option>
+                                            <option value="WI">WI</option>
+                                            <option value="WV">WV</option>
+                                            <option value="WY">WY</option>
+                                        </select>
+                                    </div>
+                                    <div class="w3-third">
+                                        <label>Zip Code</label><input class="w3-input" type="text">
+                                    </div>
+                                <label>Phone Number</label><input class="w3-input" type="tel"pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="999-999-9999">
+                                <label>Supervisor Name</label><input class="w3-input" type="text">
+                                    <div class="w3-half">
+                                        <label>Employement Dates</label><br>
+                                        <label>From</label><input class="w3-input" type="date">
+                                    </div>
+                                    <div class="w3-half">
+                                       <br> <label>To</label><input class="w3-input" type="date">
+                                    </div>
+                                <label>Job Title Held</label><input class="w3-input" type="text">
+                                <label>Reason For Leaving</label><input class="w3-input" type="text">
+                                <label>Jobs held, duties performed, skills used or learned, advancements or promotions while working with this company</label><br><textarea rows="4" cols="50"></textarea>
+                            </p>
+                            </div>
+                        </div>
+                    <div class="w3-row">
+                        <div class="w3-container w3-mobile">
+                            <p><label>May we contact your present employer?</label>
+                            <input class="w3-radio" type="radio" name="employer" value="yes"><label>Yes</label> 
+                            <input class="w3-radio" type="radio" name="employer" value="no"><label>No</label> </p>
+                        </div>
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-container w3-mobile">
+                            <p><label>Did you complete this application yourself?</label>
+                            <input class="w3-radio" type="radio" name="employer" value="yes"><label>Yes</label> 
+                            <input class="w3-radio" type="radio" name="employer" value="no"><label>No</label> </p>
+                        </div>
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-container w3-mobile">
+                            <p><label>If no, who did?</label>
+                            <input class="w3-input w3-border w3-round" type="text"></p>
+                        </div>
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-container w3-mobile w3-twothird">
+                            <p><label>Signature</label><input class="w3-input w3-border w3-round" type="text">
+                        </div>
+                        <div class="w3-container w3-mobile w3-third">
+                            <p><label>Date</label><input class="w3-input w3-border w3-round" type="date"></p>
+                        </div>
+                    </div>
+                    <div class="w3-row w3-center">
+                        <h2><b>Please Read Carefully</b></h2>
+                        <h3>Application Form Waiver</h3>
+                    </div>
+                    <div class="w3-row">
+                        <div class="w3-container w3-mobile">
+                            <p>In exchange for the consideration of my job application by ORDERED STEPS HOME FOR GIRLS (hereinafter called "the 
+                                Company"), I agree that: <br><br><br> Neither the acceptance of this application nor the subsequent entry into any 
+                                type of employment relationship, either in the position applied for or any other position, and regardless of the contents
+                                of employee handbooks, personnel manuals, benefit plans, policy statements, and the like as they may exist from time to time,
+                                or other Company practices, shall serve to create an actual or implied contract of employment, or to confer any right to remain 
+                                an employee of ______________________, or other wise to change in any respect the employment-at-will relationship between it and 
+                                the undersigned, and that relationship cannot be altered except by a written instrument signed by the President/General Manager of
+                                the Company. Both the undersigned and ______________________ may end the employment relationship at any time, without specified
+                                notice or reason. If employed, I understand that the Company may unilaterally change or revise their benefits, policies and procedures
+                                and such changes may include reduction in benefits.
+                                <br><br><br>
+                                 I authorize investigation of all statements contained in this application. I understand that the misrepresentation or omission of
+                                 facts called for is cause for dismissal at any time without any previous notice. I hereby give the Company permission to contact schools,
+                                 previous employers (unless otherwise indicated), references, and others, and hereby release the Company from any liability as a result
+                                 of such contract.
+                                 <br><br><br>
+                                 I understand that I am to have never been shown by credible evidence (such as a decision of a court or jury, or a department investigation
+                                 or other reliable evidence) to have abused, neglected, sexually exploited, or deprived a child or adult or to have subjected
+                                 any person to serious injury as a result of intentional or grossly serious injury as a result of intentional or grossly negligent misconduct
+                                 as evidenced by an oral or written statement to this effect obtained at the time of application.
+                                 <br><br><br>
+                                 I also understand that (1) the Company has a drug and alcohol policy that provides for pre-employment testing as well as testing after
+                                 employment; (2) consent to and compliance with such policy is a condition of my employment; and (3) continued employment is based on the
+                                 successful passing of testing under such policy. I further understand that continued employment may be based on the successful passing of job
+                                 related physical examinations.
+                                 <br><br><br>
+                                I understand that, in connection with the routine processing of your employment application, the Company may request from a consumer
+                                reporting agency an investigative consumer report including information as to my credit records, charcter, general reputation, personal
+                                characteristics, and mode of living. Upon written request from me, the Company, will provide me with additional information concerning the 
+                                nature and scope of any such report requested by it, as required by the Fair Credit Reporting Act.
+                                <br><br><br>
+                                I further understand that my employment with the Company shall be probationary for a period of sixty (60) days, and further that at any time 
+                                during the probationary period or thereafter, my employment relation with the Company is terminable at will for any reason by either party.
+                            </p>
+                        </div>
+                        <div class="w3-container w3-twothird w3-mobile">
+                            <p><label>Signature of applicant</label><input class="w3-input w3-border w3-round" type="text"></p>
+                        </div>
+                        <div class="w3-container w3-third w3-mobile">
+                            <p><label>Date</label><input class="w3-input w3-border w3-round" type="date"></p>
+                        </div>
+                    </div>
+                    <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+                    <div class="w3-row">
+                        <p>This Company is an equal employment oppurtunity employer. We adhere to a policy of making employment decisions without regard to race, color, religion,
+                            sex, sexual orientation, national origin, citizenship, age or disability. We assure you that your oppurtunity for employment with this Company depends
+                            solely on your qualifications.
+                        </p>
+                    </div>
+                    <div class="w3-row w3-center">
+                        <br>
+                        <p>Thank you for completing this application form and for your interest in our business.</p>
+                    </div>
+        
+                <input type="submit" value="Submit">
+        </form>
+</body>
+
+</html>
